@@ -1,5 +1,5 @@
 # 🪨✂️📄 Pedra, Papel e Tesoura
-Este repositório contém um simples jogo de Pedra, Papel e Tesoura desenvolvido em [linguagem de programação usada no script]. Neste jogo, o usuário escolhe entre as três opções: Pedra, Papel ou Tesoura. O computador também faz uma escolha aleatória, e o resultado é determinado de acordo com as regras clássicas do jogo:
+Este repositório contém um simples jogo de Pedra, Papel e Tesoura desenvolvido em Python. Neste jogo, o usuário escolhe entre as três opções: Pedra, Papel ou Tesoura. O computador também faz uma escolha aleatória, e o resultado é determinado de acordo com as regras clássicas do jogo:
 
 + 🪨 Pedra ganha de ✂️ Tesoura
 + ✂️ Tesoura ganha de 📄 Papel
