@@ -14,4 +14,5 @@ O objetivo é proporcionar uma diversão rápida e simples, onde o jogador pode 
 
 **3. Exibição do vencedor a cada rodada**
 
-# Link do Script
+# Link do Script 🕹️
+[LINK DO MINIGAME](https://github.com/tomaziu/pedra-papel-tesoura/blob/main/pedra_papel_tesoura.py)
