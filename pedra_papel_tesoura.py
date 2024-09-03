@@ -1,5 +1,4 @@
-
-def jqp(a):
+def jqp(a): # função para dizer oque a maquina jogou, o jogador e se ele ganhou empatou ou perdeu
     from random import randint
     maquina = randint(1, 3)
     if a == 1 and maquina == 1:
@@ -24,16 +23,16 @@ def jqp(a):
 
 from time import sleep
 
-parada = False
+parada = False # variável para parar loop while
 while True:
     print('\033[1m-\033[m' * 30)
     print('\033[1mJOQUEMPÔ\033[m'.center(35))
     print('\033[1m-\033[m' * 30)
     print('[ 1 ] PEDRA\n[ 2 ] PAPEL\n[ 3 ] TESOURA')
     
-    while True:
+    while True: #loop para tratamento de erro
         try:
-            escolha = int(input('\033[1m-->> \033[m'))
+            escolha = int(input('\033[1m-->> \033[m')) # jogador escolhe umas das alternativas proposta
             if escolha < 0 or escolha > 3:
                 print('\033[1;31mResposta inválida\033[m')
             else:
@@ -41,7 +40,7 @@ while True:
         except (IndexError, ValueError):
             print('\033[1;31mResposta inválida\033[m')
     
-    sleep(0.5)
+    sleep(0.5) # time para JO... QUEM... PO...
     print('\nJO 🪨')
     sleep(0.5)
     print('QUEM 📜')
@@ -49,23 +48,23 @@ while True:
     print('PÔ ✂️\n')
     
     print('-' * 30)
-    jqp(escolha)
+    jqp(escolha) # função é chamada, assim mostrando o resultado do jogado de acordo com a escolha do jogador
     print('-' * 30)
     
-    while True:
+    while True: # loop para tratamento de erro
         try:    
             cont = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
-            if 'N' in cont:
+            if 'N' in cont: # condição para se jogador escolher 'N', assim parando o progama
                 print('\033[1mObrigado por jogar!!\033[m')
                 parada = True
                 break
-            elif 'S' in cont:
+            elif 'S' in cont: # condição para se jogador escolher 'S', assim continuando jogo
                 break
-            else:
+            else: # se jogador não responder 'S' ou 'N' entra em loop, assim perguntando novamente
                 print('\033[1;31mResposta inválida\033[m')
         except IndexError:
             print('\033[1;31mResposta inválida\033[m')
         
     
-    if parada == True:
+    if parada == True: # condição para parar loop
         break
