@@ -33,7 +33,7 @@ while True:
     while True: #loop para tratamento de erro
         try:
             escolha = int(input('\033[1m-->> \033[m')) # jogador escolhe umas das alternativas proposta
-            if escolha < 0 or escolha > 3:
+            if escolha < 1 or escolha > 3:
                 print('\033[1;31mResposta inválida\033[m')
             else:
                 break
