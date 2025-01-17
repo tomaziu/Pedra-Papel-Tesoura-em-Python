@@ -1,18 +1,18 @@
-# 🪨✂️📄 Pedra, Papel e Tesoura
-Este repositório contém um simples jogo de Pedra, Papel e Tesoura desenvolvido em Python. Neste jogo, o usuário escolhe entre as três opções: Pedra, Papel ou Tesoura. O computador também faz uma escolha aleatória, e o resultado é determinado de acordo com as regras clássicas do jogo:
+# 🪨✂️📄 Rock, Paper, Scissors  
+This repository contains a simple Rock, Paper, Scissors game developed in Python. In this game, the user chooses between the three options: Rock, Paper, or Scissors. The computer also makes a random choice, and the result is determined according to the classic rules of the game:  
 
-+ 🪨 Pedra ganha de ✂️ Tesoura
-+ ✂️ Tesoura ganha de 📄 Papel
-+ 📄 Papel ganha de 🪨 Pedra
++ 🪨 Rock beats ✂️ Scissors  
++ ✂️ Scissors beats 📄 Paper  
++ 📄 Paper beats 🪨 Rock  
 
-O objetivo é proporcionar uma diversão rápida e simples, onde o jogador pode competir contra a máquina.
+The goal is to provide quick and simple fun, where the player can compete against the machine.  
 
-#  Funcionalidades
-**1. Interface simples e fácil de usar**
+# Features  
+**1. Simple and easy-to-use interface**  
 
-**2. Escolha aleatória da máquina para garantir imparcialidade**
+**2. Random machine choice to ensure fairness**  
 
-**3. Exibição do vencedor a cada rodada**
+**3. Displays the winner of each round**  
 
-# Link do Script 🕹️
-[LINK DO MINIGAME](https://github.com/tomaziu/pedra-papel-tesoura/blob/main/pedra_papel_tesoura.py)
+# Script Link 🕹️  
+[MINIGAME LINK](https://github.com/tomaziu/pedra-papel-tesoura/blob/main/pedra_papel_tesoura.py)  
